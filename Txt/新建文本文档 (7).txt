@@ -1,0 +1,33 @@
+RSFSIGNPWKSWYHYU
+
+BIGFVVUALEOUMXYJ
+
+{b'PERMANENTFLAGS': (b'\\Answered', b'\\Seen', b'\\Deleted', b'\\Draft', b'\\Flagged'), b'EXISTS': 7, b'RECENT': 4, b'UIDVALIDITY': 1, b'FLAGS': (b'\\Answered', b'\\Seen', b'\\Deleted', b'\\Draft', b'\\Flagged'), b'READ-WRITE': True}
+
+from imbox import Imbox
+
+# IMAP服务器地址，邮箱地址，密码，是否打开SSL加密
+with Imbox("imap.163.com","qq1520600496@163.com",'BIGFVVUALEOUMXYJ',ssl=True,ssl_context="") as imbox:
+    all_box_messages=imbox.messages()
+    for uid,message in all_box_messages:
+        print(message.subject)
+        print(message.body['plain'])
+
+server.id_({"name": "IMAPClient", "version": "2.1.0"})
+
+import imaplib
+# 添加缺失的命令
+from imapclient import IMAPClient
+from imbox import Imbox
+
+
+def a():
+    server = IMAPClient("imap.163.com", ssl=True, port=993)
+    server.login('qq1520600496@163.com', 'BIGFVVUALEOUMXYJ')
+
+    server.id_({"name": "IMAPClient", "version": "2.1.0"})
+    with Imbox(server, "qq1520600496@163.com", 'BIGFVVUALEOUMXYJ', ssl=True, ssl_context="") as imbox:
+        
+
+ for message in messages:
+        print(message[])
