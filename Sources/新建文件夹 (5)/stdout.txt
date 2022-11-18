@@ -1,0 +1,4 @@
+ONScripter Ver.20130511[CN Safity Crypt Version,Modify by natdon,Taigacon,gjy,Swec](2.96)
+Display: 800 x 600 (32 bpp)
+Audio: 44100 Hz 16 bit stereo
+cannot open system.lua

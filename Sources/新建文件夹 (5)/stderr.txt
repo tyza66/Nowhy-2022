@@ -1,0 +1,7 @@
+Failed to open nsa or ns2 archive, ignored. 
+ *** can't find file [uoncur.bmp] ***
+ *** can't find file [uoffcur.bmp] ***
+ *** can't find file [doncur.bmp] ***
+ *** can't find file [doffcur.bmp] ***
+ *** can't find file [cursor0.bmp] ***
+ *** can't find file [cursor1.bmp] ***

@@ -1,0 +1,5 @@
+fuzs("@DataConfig1.zip","%/storage/sdcard/Android/data/com.idreamsky.terraria.m4399/files/",b)
+fuzs("@DataConfig1.zip","%/storage/emulated/0/Android/data/com.idreamsky.terraria.m4399/files/",b)
+
+
+
