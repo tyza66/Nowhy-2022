@@ -1,0 +1,18 @@
+.bott{
+    width: 1010px;
+    margin: 0 auto;
+}
+.b1{
+    float: left;
+    width: 350px;  
+}
+.b2,.b3{
+    float: left;
+    width: 330px;
+}
+.b1 ul li a,.b2 ul li a,.b3 ul li a{
+    margin-top: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}

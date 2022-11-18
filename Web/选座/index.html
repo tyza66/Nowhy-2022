@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />     
+    <meta name="apple-mobile-web-app-capable" content="yes" />    
+    <meta name="format-detection" content="telephone=no" />    
+    <title>选座</title>
+    <link rel="stylesheet" href="css/all.css"/><script src="js/vue.js"></script>
+</head>
+<body>
+    <div class="background" id="page">
+        <div class="title"><img src="static/chanjian.jpg"></img><p>餐厅选座系统</p><div class="submit" @click="ti"><p>提交</p></div></div>
+        <div class="bodyy">
+            <div class="show">
+                <div class="meiren"><div></div><p>可预订</p></div>
+                <div class="yuding"><div></div><p>已预定</p></div>
+                <div class="youren"><div></div><p>有人在</p></div>
+                <div class="tingyong"><div></div><p>已停用</p></div>
+            </div>
+            <div class="yixuan">已选:{{yixuan}}</div>
+            <div class="zuowei">
+                <div id="c1">
+                    <div :class="char1" @click="ch1">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char2" @click="ch2">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char3" @click="ch3">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char4" @click="ch4">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                </div>
+                <div id="c2">
+                    <div :class="char5" @click="ch5">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char6" @click="ch6">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char7" @click="ch7">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char8" @click="ch8">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                </div>
+                <div id="c3">
+                    <div :class="char9" @click="ch9">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char10" @click="ch10">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char11" @click="ch11">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char12" @click="ch12">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                </div>
+                <div id="c4">
+                    <div :class="char13" @click="ch13">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char14" @click="ch14">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char15" @click="ch15">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char16" @click="ch16">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                </div>
+                <div id="c5">
+                    <div :class="char17" @click="ch17">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char18" @click="ch18">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char19" @click="ch19">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char20" @click="ch20">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char21" @click="ch21">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char22" @click="ch22">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char23" @click="ch23">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                    <div :class="char24" @click="ch24">
+                        <div class="char1"></div>
+                        <div class="char2"></div>
+                        <div class="char3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
