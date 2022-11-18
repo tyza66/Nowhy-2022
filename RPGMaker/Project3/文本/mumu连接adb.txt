@@ -1,0 +1,9 @@
+【win版】
+adb connect 127.0.0.1:7555
+adb shell
+
+【mac版】
+
+adb kill-server && adb server && adb shell
+
+ 
