@@ -1,0 +1,8 @@
+外网面板地址: http://81.70.49.228:8888/4b58db11
+内网面板地址: http://10.0.8.5:8888/4b58db11
+*以下仅为初始默认账户密码，若无法登录请执行bt命令重置账户/密码登录
+username: rbdfezhb
+password: 3d3fe71d
+If you cannot access the panel,
+release the following panel port [8888] in the security group
+若无法访问面板，请检查防火墙/安全组是否有放行面板[8888]端口

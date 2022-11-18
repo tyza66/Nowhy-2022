@@ -1,0 +1,3 @@
+(a+bi)(c+di)=(ac-bd)+(ad+bc)i
+
+(a+bi)*c=ac+bci
