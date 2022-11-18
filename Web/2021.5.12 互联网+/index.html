@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+</head>
+
+<body>
+    <div class="border w">
+        <div class="main">
+            <div class="nav">
+                <div class="location">
+                    <!-- <span class="dingwei iconfont icon-coordinates"></span> -->
+                    <img src="img/定位.svg" alt="" class="location-img">
+                    <span class="school">渤海大学</span>
+                </div>
+                <div class="search">
+                    <div class="input">
+                        <form method="get" action="http://www.baidu.com/s">
+                            <input type="text" placeholder="请输入要搜索的内容" name="wd">
+                            <button type="submit">搜索</button>
+                        </form>
+                        <span class="input-search iconfont icon-scan"></span>
+                        <span class="input-camera iconfont icon-translation"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="head">
+                <ul>
+                    <li><a href="#">
+                            <img src="img/橘子.png" alt="" class="jz">
+                            <span class="text">水果顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/餐具.png" alt="" class="cj">
+                            <span class="text">食堂顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/红车.png" alt="" class="hc">
+                            <span class="text">出行顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/卖出.png" alt="" class="mc">
+                            <span class="text">闲置顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/药箱.png" alt="" class="yx">
+                            <span class="text">药店顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/盒子.png" alt="" class="hz">
+                            <span class="text">快递顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/购物车.png" alt="" id="cs" class="gwc">
+                            <span class="text">超市顺手</span>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="img/日历.png" alt="" class="rl">
+                            <span class="text">物品顺手</span>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="tv">
+                <div class="body">
+                    <img src="img/1620908229.jpg" alt="">
+                    <img src="img/校园防疫.png" alt="" id="xiaoyuan">
+                    <img src="img/聚焦两会.png" alt="">
+                    <img src="img/防疫.png" alt="">
+                    <img src="img/1620908229 - 副本.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="bodybottom">
+                <div class="bottom1">
+                    <span class="bottom1left">取快递</span>
+                    <span class="bottom1right">2021-5-13 11:02</span><br>
+                    <span class="song">送到3615</span><br>
+                    <div class="bottom1foot">
+                        <img src="img/金币.svg" alt="">
+                        <span class="shunshoubi">顺手币:</span>
+                        <span class="rmb">￥1.00</span>
+                        <a href="#" class="chakan">查看详情</a>
+                    </div>
+
+                </div>
+                <div class="bottom1">
+                    <span class="bottom1left" curcor="pointer">食堂一楼咖喱饭</span>
+                    <span class="bottom1right">2021-5-13 12:02</span><br>
+                    <span class="song">送到6210</span><br>
+                    <div class="bottom1foot">
+                        <img src="img/金币.svg" alt="">
+                        <span class="shunshoubi">顺手币:</span>
+                        <span class="rmb">￥2.00</span>
+                        <a href="#" class="chakan">查看详情</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottomhr"></div>
+            <div class="footer">
+                <ul class="footer-nav">
+                    <li class="left shouye">
+                        <a href="#"><img src="img/首页 (1).svg" alt=""></a>
+                        <p>首页</p>
+                    </li>
+                    <li class="pengyou">
+                        <a href="#"><img src="img/收藏.svg" alt=""></a>
+                        <p>朋友圈</p>
+                    </li>
+                    <li class="fabu">
+                        <a href="#"><img src="img/发布.svg" alt=""></a>
+                        <p>发布任务</p>
+                    </li>
+                    <li class="xiaoxi">
+                        <a href="#"><img src="img/消息.svg" alt=""></a>
+                        <p id="xx">消息</p>
+                    </li>
+                    <li class="my">
+                        <a href="#"><img src="img/我的.svg" alt=""></a>
+                        <p>我的</p>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+<script>
+    $(".jz").on("click",function(){alert("您单击了水果顺手")});
+    $(".cj").on("click",function(){alert("您单击了食堂顺手")});
+    $(".hc").on("click",function(){alert("您单击了出行顺手")});
+    $(".mc").on("click",function(){alert("您单击了闲置顺手")});
+    $(".yx").on("click",function(){alert("您单击了药店顺手")});
+    $(".hz").on("click",function(){alert("您单击了快递顺手")});
+    $(".gwc").on("click",function(){alert("您单击了超市顺手")});
+    $(".rl").on("click",function(){alert("您单击了物品顺手")});
+</script>
+</body>
+
+</html>

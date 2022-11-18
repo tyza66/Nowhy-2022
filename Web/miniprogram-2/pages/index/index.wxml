@@ -1,0 +1,8 @@
+<!--pages/index1/index1.wxml-->
+<swiper autoplay interval="1000" circular indicator-dots>
+<swiper-item><image mode="widthFix" src="https://i.loli.net/2021/01/19/TxstUD1M7bPdue3.jpg" /> </swiper-item>
+<swiper-item><image mode="widthFix" src="https://i.loli.net/2021/01/19/yUxwNAp15BVCMav.jpg" /> </swiper-item>
+<swiper-item><image mode="widthFix" src="https://i.loli.net/2021/01/19/OEJcalMBjzIqTek.jpg" /> </swiper-item>
+<swiper-item><image mode="widthFix" src="https://i.loli.net/2021/01/19/lHyObnG2kPc3YQx.jpg" /> </swiper-item>
+</swiper>
+<rich-text nodes="{{html1}}"></rich-text>

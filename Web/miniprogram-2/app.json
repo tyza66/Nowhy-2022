@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E66B1A",
+    "navigationBarTitleText": "农+",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/_home1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text":"看房",
+        "iconPath": "icon/_kanfang.png",
+        "selectedIconPath": "icon/_kanfang1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text":"直播",
+        "iconPath": "icon/_zhibo.png",
+        "selectedIconPath": "icon/_zhibo1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text":"产品",
+        "iconPath": "icon/_chanpin.png",
+        "selectedIconPath": "icon/_chanpin1.png"
+      }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,24 @@
+/* pages/index1/index1.wxss */
+swiper{
+    width: 100%;
+    height: calc(100vw * 500 / 1125);
+}
+image{
+    width: 100%;
+}
+.kuai{
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    outline: 0;
+    display: flex;
+    background-color: #88ff88;
+}
+.maimao,.maishouji{
+    width: 25%;
+    height: fit-content;
+}
+
+.maimao2,.maishouji2{
+    size: 20dp;
+}
