@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-shrink</title>
+    <style>
+        div{
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 750px;
+            margin: 20px;
+            border: 1px solid red;
+        }
+        .inner{
+            width: 300px;
+            height: 300px;
+            margin: 2px;
+            background: grey;
+        }
+        .flex-box{
+            display: flex;
+        }
+        .inner.a{
+            flex-shrink: 3;
+        }
+        .inner.b{
+             flex-shrink: 1;
+         }
+        .inner.c{
+            flex-shrink: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container flex-box">
+    <div class="inner a">
+        width: 300px;
+        height: 300px;
+        flex-shrink: 1;
+    </div>
+    <div class="inner b">
+        width: 300px;
+        height: 300px;
+        flex-shrink: 1;
+    </div>
+    <div class="inner c">
+        width: 300px;
+        height: 300px;
+        flex-shrink: 1;
+    </div>
+</div>
+</body>
+</html>

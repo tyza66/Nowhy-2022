@@ -1,0 +1,11 @@
+ function checkCookie(cookieKey) {
+            var cookieValue=getCookie(cookieKey);
+            if(cookieValue!=""){
+                alert("Welcome again "+cookieValue);
+            }else{
+                cookieValue=window.prompt("Please enter your name:","");
+                if(cookieValue!=""&&cookieValue!=null){
+                    setCookie(cookieKey,cookieValue,365);
+                }
+            }
+        }

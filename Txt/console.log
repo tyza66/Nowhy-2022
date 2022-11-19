@@ -1,0 +1,352 @@
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home/update") is not allowed
+Source: file:///D:/desktop/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/desktop/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/desktop/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: boot.ts
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 216
+-----------------------
+Message: initLocale
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 190
+-----------------------
+Message: > locale: zh-CN
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 192
+-----------------------
+Message: loadScript(../../Resources/zh-CN/extensionmanager/js/app.soy.js) loading...
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 170
+-----------------------
+Message: > loadScript(../../Resources/zh-CN/extensionmanager/js/app.soy.js) loaded
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 173
+-----------------------
+Message: bootApp
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 202
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: boot.ts
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 216
+-----------------------
+Message: initLocale
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 190
+-----------------------
+Message: > locale: zh-CN
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 192
+-----------------------
+Message: loadScript(../../Resources/zh-CN/extensionmanager/js/app.soy.js) loading...
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 170
+-----------------------
+Message: > loadScript(../../Resources/zh-CN/extensionmanager/js/app.soy.js) loaded
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 173
+-----------------------
+Message: bootApp
+Source: file:///D:/SketchUp%202021/Dialogs/ExtensionManager/js/app.js
+Line: 202
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
+Message: Uncaught TypeError: Cannot read property 'children' of null
+Source: file:///D:/SketchUp%202021/Resources/zh-CN/HelpContent/js/openurl.js
+Line: 12
+-----------------------
