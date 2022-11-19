@@ -1,0 +1,16 @@
+package com.etc.fx;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+
+public class AController {
+	@FXML
+	TextField txt1;
+	@FXML
+	Button btn1;
+	
+	public void clickbtn1(){
+		
+	}
+}

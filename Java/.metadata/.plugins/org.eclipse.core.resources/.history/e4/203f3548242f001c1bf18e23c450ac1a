@@ -1,0 +1,53 @@
+package project_1016;
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.HashMap;
+import java.util.Map;
+
+public class TestMain6Server {
+	public static Map<String,Socket> map = new HashMap<String,Socket>();
+	public static void main(String[] args) {
+		//10.100.8.65
+		try {
+			
+			ServerSocket server = new ServerSocket(1234);
+			while(true){
+			Socket client = server.accept();
+			String message = ip + "say" + new String(buffer,0,len);
+			map.forEach((k,v) -> {
+				OutputStreamWriter pw = new OuputStreamWriter(client.getOutputStream());
+				pw.write(message);
+				pw.flush();
+			});
+			InputStreamReader inreader = new InputStreamReader(client.getInputStream());
+			System.out.println(client.getInetAddress().getHostAddress());
+			PrintWriter pw = new PrintWriter(client.getOutputStream());
+			pw.append("az");
+			pw.flush();
+			char[] buffer = new char[1024];
+			new Thread(){
+				@Override
+				public void run(){
+					InputStreamReader inreader = new InputStreamReader(client.getInputStream());
+					char[] buffer = new char[1024];
+					while(true){
+						int len = -1;
+					if((len = inreader.read(buffer)) != -1){
+						System.out.println(new String(buffer,0,len));
+					}
+					}
+				}
+			}.start();
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println("端口被占用");
+		}
+	}
+}

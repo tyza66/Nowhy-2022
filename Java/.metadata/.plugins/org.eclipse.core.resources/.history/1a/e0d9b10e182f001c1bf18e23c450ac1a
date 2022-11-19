@@ -1,0 +1,39 @@
+package com.sdm.ls;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+
+public class bound {
+	//°ó¶¨¿Ø¼þid
+	@FXML
+	TextField t1;
+	@FXML
+	TextField t2;
+	@FXML
+	TextField t3;
+	@FXML
+	TextField t4;
+	@FXML
+	Button b4;
+	@FXML
+	Button b5;
+	
+//	public void clickbtn1() {
+//		Alert alter = new Alert(AlertType.INFORMATION);
+//		String str = txt1.getText();
+//		alter.setContentText(str);
+//		txt1.setText("");
+//		alter.show();
+//	}
+	//µã»÷
+	public void clickbtn1() {
+		Alert alter = new Alert(AlertType.INFORMATION);
+		String str = txt1.getText();
+		alter.setContentText(str);
+		txt1.setText("");
+		alter.show();
+	}
+}

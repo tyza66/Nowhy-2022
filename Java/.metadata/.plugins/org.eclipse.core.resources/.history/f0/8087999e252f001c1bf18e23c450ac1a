@@ -1,0 +1,59 @@
+package com.sdm.server;
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Server_start {
+	public static Map<String, User> map = new HashMap<>();
+	public static List<Socket> list = new ArrayList<>();
+	public static void main(String[] args) {
+		try {
+			ServerSocket server = new ServerSocket(1232);
+			while (true) {
+				Socket client = server.accept();
+				String ip = client.getInetAddress().getHostAddress();
+				InputStreamReader inreader = new InputStreamReader(client.getInputStream());
+				char[] buffer = new char[1024];
+				int len = -1;
+				String name_get = "";
+				if((len = inreader.read(buffer)) != -1)
+					name_get = name_get + new String(buffer,0,len);
+				System.out.println(name_get+":"+ip);
+				map.put(ip, new User(name_get,client));
+				list.add(client);
+				try {
+					OutputStreamWriter out = new OutputStreamWriter(client.getOutputStream());
+					out.write(ip);
+					out.flush();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+}
+class User{
+	String name;
+	Socket client;
+	User(String name,Socket client){
+		this.name = name;
+		this.client = client;
+	}
+}
+

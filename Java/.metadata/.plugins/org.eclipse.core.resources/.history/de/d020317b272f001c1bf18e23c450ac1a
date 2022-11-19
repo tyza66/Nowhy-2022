@@ -1,0 +1,56 @@
+package com.sdm.ls;
+
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+
+public class Bound {
+	//绑定控件id
+	@FXML
+	TextField t1;
+	@FXML
+	TextField t2;
+	@FXML
+	TextField t3;
+	@FXML
+	TextField t4;
+	@FXML
+	TextArea i1;
+	@FXML
+	TextArea i2;
+	@FXML
+	Button b4;
+	@FXML
+	Button b5;
+	//连接状态
+	 static Socket client = null;
+//	public void clickbtn1() {
+//		Alert alter = new Alert(AlertType.INFORMATION);
+//		String str = txt1.getText();
+//		alter.setContentText(str);
+//		txt1.setText("");
+//		alter.show();
+//	}
+	//点击上线按钮时候事件
+	public static void getSomeOne(String info){
+		
+	}
+	public void click_b4() throws IOException {
+		String name = t1.getText();
+		String ip = t2.getText();
+		int port = Integer.parseInt(t3.getText());
+		client = new Socket(ip,port);
+		OutputStreamWriter pw = new OutputStreamWriter(client.getOutputStream());
+			pw.write(name);
+			pw.flush();
+	}
+	//点击发送消息时候事件
+	public void click_b5() {
+		
+	}
+}
