@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 8vw;
+    border-bottom:0.1vw solid rgb(200,200,200);
+}
+.top .ce{
+    height: 8vw;
+    width: 60vw;
+    margin: 0 auto;
+}
+.top .ce .its{
+    float: left;
+    height: 6vw;
+    width: 15vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+.super{
+    height: 50vw;
+}
+.super iframe{
+    width: 100%;
+    height: 300vw;
+}

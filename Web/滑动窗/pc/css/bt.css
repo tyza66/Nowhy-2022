@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.good{
+    width:800px;
+    height: 400px;
+    margin: 0 auto;
+}

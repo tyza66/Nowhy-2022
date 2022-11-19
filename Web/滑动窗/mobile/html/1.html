@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="../css/bt.css"/>
+    <link rel="stylesheet" href="../css/sw1.css"/>
+    <link rel="stylesheet" href="../css/swiper.min.css"/>
+</head>
+<body>
+    <div class="good">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/TweenMax.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            keyboard : true,
+            virtualTranslate : true,
+            on:{
+                setTranslate: function(){
+                    this.$wrapperEl.transition('')
+                    TweenMax.to(this.$wrapperEl, 1.5, {x:this.translate, ease:Power4.easeOut})
+                    
+                }
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+        });
+        </script>
+</body>
+</html>
