@@ -1,0 +1,61 @@
+C51 COMPILER V9.54   MAIN                                                                  07/23/2021 12:47:23 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\main.ls
+                    -t) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "Delay.h"
+   3          sbit RCK = P3^5;
+   4          sbit SCK = P3^6;
+   5          sbit SER = P3^4;
+   6          void _74HC595_WriteByte(unsigned char Byte){
+   7   1        unsigned char i;
+   8   1        for(i=0;i<8;i++){
+   9   2          SER=Byte&(0x80>>i);
+  10   2          SCK = 1;
+  11   2          SCK = 0;
+  12   2        }
+  13   1        RCK = 1;
+  14   1        RCK = 0;
+  15   1      }
+  16          void MatrixLED_ShowColumn(unsigned char Column,Data){
+  17   1        _74HC595_WriteByte(Data);
+  18   1        
+  19   1        P0=~(0x80>>Column);
+  20   1        Delay(1);
+  21   1        P0=0xFF;
+  22   1      }
+  23          void main(){
+  24   1        SCK = 0;
+  25   1        RCK = 0;
+  26   1        
+  27   1        while(1){
+  28   2          MatrixLED_ShowColumn(0,0xf2);
+  29   2          MatrixLED_ShowColumn(1,0x92);
+  30   2          MatrixLED_ShowColumn(2,0x92);
+  31   2          MatrixLED_ShowColumn(3,0x9e);
+  32   2          MatrixLED_ShowColumn(4,0xfe);
+  33   2          MatrixLED_ShowColumn(5,0x92);
+  34   2          MatrixLED_ShowColumn(6,0x92);
+  35   2          MatrixLED_ShowColumn(7,0xee);
+  36   2        }
+  37   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    153    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
