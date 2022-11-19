@@ -1,0 +1,28 @@
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home/update") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/home/update") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/signin") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Munchkin.init("%s") options: 645-COJ-341 [object Object]
+Source: https://munchkin.marketo.net/161/munchkin.js
+Line: 22
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/signin") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
+Message: Uncaught (in promise) NavigationDuplicated: Navigating to current location ("/signin") is not allowed
+Source: file:///D:/SketchUp%202021/welcomescreen/regularlaunchpage.bundle.js
+Line: 27
+-----------------------
