@@ -1,0 +1,9 @@
+软件工程本科在校生。编程起步早。学习并实践过全栈开发，软件开发，App小程序开发等。多次参与过学校创新创业项目（9+，曾获校级一等奖、二等奖），全权担任开发职位。有大量案例。掌握多种安卓开发框架(包括安卓原生开发)，通过Uniapp的iOS开发。前端擅长于vue，数据可视化，全景图片等。后端方面java，python(包括flask，PySQL)及Ruby等语言。有部分证书。有RPG Maker，Unity游戏开发经验。
+2015起曾制作过：
+哔哩助手(bilibili超精简版)[Android],天干宝典启动器[Windows] ,百变宝典启动器[Windows],球球助手[Android]，cf手游助手[Android]，飘逸的记事本[Windows],日麻记点[Android],相对分子质量计算器[Android] ,AGM盒子[Windows],太鼓ウェブ - Taiko Web（太鼓达人Web）[Android],PPSSPP联机配置器[Android],查数儿小软件儿[Windows],SHUN悬浮窗翻译[Android],辅助准星[Android],剧本编辑器助手[Android],闪办网音频获取工具[Android]......
+安卓软件汉化或制作做插件或脚本：
+猫岛工作室[汉化],RMMV完全跳过Title界面[RMMV][JS],泰拉瑞亚PE1.3付费模式[插件],泰拉瑞亚启动器(launcher terraria for)[汉化][插件],泰拉瑞亚联机器(multiterraria)[汉化],黄软件儿(ZeroTier)[汉化],RMVA替换字体脚本[RGSS][脚本整理],RMVA清Esc窗口三件套[RGSS][脚本整理]......
+2020年起曾制作过软件(部分，不包括练习和游戏作品)：利民二手车[Android],Appium范例：启动小鸡模拟器fc游戏文件下一游戏并通过B站直播间弹幕控制游戏[Python],哎纸娃娃[Android],电费统计[接单][前端案例],易经宝典重制版[Android],uniapp实现VR看房效果[uniapp],杰哥不要PSP移植版1.0[PSP游戏][掌机移植],素材分享论坛[运营过十几天],心理咨询[Android][前端][代做][合作],餐厅选座[前端][代做][Vue]  ......
+2020年在网络上以个人名义举办过恐怖游戏制作友谊赛并圆满成功。
+经常在网络上帮助网友在技术上实现他们的一些想法和需求。
+2020年到2021年制作过三个独立游戏，一个平台移植游戏。
