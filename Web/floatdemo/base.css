@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-family: "微软雅黑";
+  }
+  ul li{
+    list-style: none;
+  }
+  a:link,a:hover{
+    text-decoration: none;
+  }
+  .clearfix{
+    *zoom:1;
+  }
+  .clearfix:after {
+    height: 0;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    display: block;
+  }
+  .fl{
+    float: left;
+  }
+  .fr{
+    float: right;
+  }
+  
+  h3,.tips-info{
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  li{
+    margin-bottom: 10px
+  }
+  .tips,ol{
+    background: #fffbfb;
+    padding: 10px 20px;
+  }
+  .tips-ex{
+    font-size: 12px;
+    color: #99c1c1;
+  }
+  .block{
+    padding: 10px 20px;
+    border-top: 5px solid #99c1c1;
+    margin: 30px 0 0px;
+    background: #f5f5f5;
+  }
+  .browser,.container{
+    padding: 20px;
+     
+  }
+  .container{
+    font-size: 14px;
+  }
+  .container,.img-box{
+    background: #eee;
+    border: 1px solid #999;
+  }
+  .box{
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #999;
+  }
+  .team-box{
+    width: 158px;
+    float: left;
+  }
+  .person-box{
+    width: 78px;
+    float: right;
+  }
+  .person-box .img-box{
+    margin-bottom: 20px;
+  }
+  .person-box .img-box:last-child{
+    margin: 0;
+  }
+
+  .img-box{
+    width: 78px;
+  }
+
+  .img-txt{
+    line-height: 20px;
+    margin: 20px 0;
+    text-align: center;
+    padding: 0 5px;
+  }
+  .team-name{
+    width: 78px;
+    height: 80px;
+    text-align: center;
+  }
+  .info-box{
+    width: 70%;
+    margin: 0 auto;
+  }

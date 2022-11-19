@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>d02</title>
+    <script>
+        function gonext(){
+            var num = document.getElementById("num").innerHTML;
+            var answer = document.getElementsByName("answer");
+            var str = "";
+            for(var i=0;i<answer.length;i++){
+                if(answer[i].checked){
+                    str = str + answer[i].value;
+                }
+            }
+            var url = "./demo02.html?num=" + num + "&answer=" + str;
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+<p>
+    <span id="num">02</span>
+    <span id="spam">web题有几个</span><br>
+    <input name="answer" type="checkbox" value="1">&nbsp;<span>1</span><br>
+    <input name="answer" type="checkbox" value="2">&nbsp;<span>2</span><br>
+    <input name="answer" type="checkbox" value="3">&nbsp;<span>3</span><br>
+    <button onclick="gonext()">下一题</button>
+
+</p>
+</body>
+</html>

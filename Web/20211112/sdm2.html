@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * { margin: 0;
+            padding: 0;
+        }
+        nav { margin: 50px ;
+            width: 150px ;
+        }
+        .list1 ul {
+            border: 1px solid #f00 ;
+            border-radius: 3px;
+            padding: 5px 10px 3px;
+        }
+        .list1 li {
+            list-style-type: none;
+            padding:3px 10px;
+        }
+        .list1 li + li {
+            border-top:1px solid #f00;
+        }
+        /*给所有 li 上方添加一条边框*/
+        li {border-top:1px solid #f00;}
+        /*去掉第一个 li 上方的边框*/
+        li:first-child {border-top:none;}
+
+        .list1 a {
+            text-decoration : none;
+            font:20px Exo, helvetica, arial, sans-serif;
+            font-weight: 400;
+            color: #000;
+            background: #ffed53 ;
+        }
+        .list1 a:hover {
+            color: #069 ;
+        }
+        a { display: block };
+        * { margin: 0;
+            padding: 0;
+        }
+        nav { margin:50px ;
+            width:150px ;
+        }
+        .list2 ul {
+            border: 1px solid #f00 ;
+            border-radius: 3px;
+            padding: 5px 10px 3px;
+        }
+        .list2 li {
+            list-style-type: none;
+            padding:3px 10px;
+        }
+        .list2 li + li a {
+            border-top: 1px solid #f00;
+        }
+        .list2 a {
+            display: block ;
+            padding: 3px 10px ;
+            text-decoration:none;
+            font:20px Exo, helvetica, arial, sans-serif ;
+            font-weight: 400 ;
+            color: #000 ;
+            background: #ffed53 ;
+        }
+        .list2 a:hover {
+            color: #069 ;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="list1">
+    <ul>
+        <li><a href="#">Alternative</a></li>
+        <li><a href="#">Country</a></li>
+        <li><a href="#">Jazz</a></li>
+        <li><a href="#">Rock</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

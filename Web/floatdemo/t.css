@@ -1,0 +1,36 @@
+@charset "utf-8";
+.wrapper{
+    margin: 30px;
+    border:black;
+    background-color:skyblue;
+}
+.wrapper.top{
+    width: 600px;
+    margin : 30px auto;
+}
+.inner{
+    border : 1px solid  blue ;
+    margin : 10px ;
+    background-color: yellow;
+}
+
+.inner.top {
+    width : 148px ;
+    height: 50px ;
+    background-color:burlywood;
+}
+
+#t2,#t4{
+    width : 100px ;
+    height: 100px ;
+    background-color: pink;
+}
+
+.float-left {
+  float:left ;
+}
+
+.inner.middle {
+    background-color:rebeccapurple;
+    color:white;
+}

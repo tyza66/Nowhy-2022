@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>d01</title>
+    <script>
+        function gonext(){
+            var num = document.getElementById("num").innerHTML;
+            var answer = document.getElementsByName("answer");
+            var str = "";
+            for(var i=0;i<answer.length;i++){
+                if(answer[i].checked){
+                    str = str + answer[i].value;
+                }
+            }
+            var url = "./demo02.html?num=" + num + "&answer=" + str;
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+<p>
+    <span id="num">01</span>
+    <span id="spam">在web页面中跳转技术包括几种</span><br>
+    <input name="answer" type="checkbox" value="1">&nbsp;<span>使用超链接a标签</span><br>
+    <input name="answer" type="checkbox" value="2">&nbsp;<span>使用form标签</span><br>
+    <input name="answer" type="checkbox" value="3">&nbsp;<span>使用window.location事件</span><br>
+    <button onclick="gonext()">下一题</button>
+
+</p>
+</body>
+</html>

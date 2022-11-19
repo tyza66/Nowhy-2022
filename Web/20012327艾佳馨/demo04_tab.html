@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="demo04_tab.css" /> 
+   
+</head>
+<body>
+    <main>
+        <h4>
+            Js 面向对象 动态添加标签页
+        </h4>
+        <div id="tab" class="tabsbox" >
+            <!-- tab标签 -->
+            <nav id="firstnav">
+                <ul id='tabul'>
+                    <li class="li-active"><span>tab1</span><span class="icon-guanbi"></span></li>
+                    <li><span>tab2</span><span class="icon-guanbi"></span></li>
+                    <li><span>tab3</span><span class="icon-guanbi"></span></li>
+                </ul>
+                <div id="add_tab">
+                    <span>+</span>
+                </div>
+            </nav>
+            <!--tab content-->
+            <div id="tabscon">
+                <section class="con-active">section1</section>
+                <section>section2</section>
+                <section>section3</section>
+            </div>
+        </div>
+    </main>
+</body>
+<script type="text/javascript" src="01.js" ></script>
+</html>

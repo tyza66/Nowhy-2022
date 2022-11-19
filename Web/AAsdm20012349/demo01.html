@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(
+            function(){
+                $("button.b1").click(
+                    function(){
+                        $("p").hide(1000);
+                    }
+                );
+                $("button.b2").click(
+                    function(){
+                        $("p").show(1000);
+                    }
+                );
+                $("button.b3").click(
+                    function(){
+                        $("p").toggle(1000);
+                    }
+                );
+                $(".pannal").css("width","500px");
+                $(".pannal").css("height","500px");
+                $(".pannal").css("background-color","skyblue");
+                $("button.change").click(
+                    function() {
+                        $(".pannal").css("width", "300px");
+                        $(".pannal").css("height", "300px");
+                        $(".pannal").css("background-color", "green");
+                    }
+                );
+                $("button.content").click(
+                    function() {
+                        $("p").html("内容改变了");
+
+                    }
+                );
+                $("button.inner").click(
+                    function() {
+                        $("#name").innerText("内容改变了");
+                    }
+                );
+            }
+        );
+    </script>
+</head>
+<body>
+<p>段落1</p><p>段落2</p><p>段落3</p>
+<button class="b1">hide</button><button class="b2">show</button><button class="b3">toggle</button>
+<div class="pannal"></div>
+<button class="change">change</button><br>
+<button class="inner">change inner</button><br>
+<input type="text" id="name" size="20"/><br>
+</body>
+</html>

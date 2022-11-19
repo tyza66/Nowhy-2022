@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>homework</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/sdm/ls/StarterApp.java</name>
+			<type>1</type>
+			<location>C:/Users/ADMINI~1/AppData/Local/Temp/Rar$DRa0.133/班级-学号-姓名-成果物提交/05-成果物最终代码/homework1020/src/com/sdm/ls/StarterApp.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

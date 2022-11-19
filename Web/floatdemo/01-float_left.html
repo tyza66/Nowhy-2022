@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{float:left}</title>
+    <style>
+       div {
+           margin: 30px ;
+           padding: 50px ;
+           border: 1px solid black ;
+       }
+        p{ 
+           margin:0; 
+           border:1px solid red ;
+            overflow: auto;
+        } 
+        img{ 
+            float:left; 
+            margin:10px ;
+            width:130px;
+            height:100px;
+        }
+        span.qd {
+            color:red;
+            font-weight:bold;
+        }
+        .tag {
+            color:blue;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            CSS 设计float属性的主要目的，是为了实现文本绕排图片的效果。
+            <br>为了实现 <span class="qd">文本绕排图片</span> 的效果，
+            <br>HTML文档中要有图片标签 <span class="tag">&lt;img&gt;</span>  和容纳文本的标记，我们可以使用<span class="tag">&lt;p&gt;</span> ；
+            <br>同时 <span class="tag">&lt;img&gt;</span> 必须出现在 <span class="tag">&lt;p&gt;</span> 之<span class="qd">前</span>; 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;img src=&quot;imges/float-left.jpg&quot; /&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;p&gt;... the paragraph text &lt;p/&gt;
+            <br>CSS规则如下：
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; p { margin:0; border:1px solid red ; }
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; img {  float:left;  margin:4px ; } 
+            <br>以上规则会让图片浮动到左侧，从而让文本绕排到右侧。
+        </p>
+        <img src="images/float-left.jpg" alt="float left demo" />
+        <p>
+            CSS 设计float属性的主要目的，是为了实现文本绕排图片的效果。
+            <br>为了实现 <span class="qd">文本绕排图片</span> 的效果，
+            <br>HTML文档中要有图片标签 <span class="tag">&lt;img&gt;</span>  和容纳文本的标记，我们可以使用<span class="tag">&lt;p&gt;</span> ；
+            <br>同时 <span class="tag">&lt;img&gt;</span> 必须出现在 <span class="tag">&lt;p&gt;</span> 之<span class="qd">前</span>; 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;img src=&quot;imges/float-left.jpg&quot; /&gt;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;p&gt;... the paragraph text &lt;p/&gt;
+            <br>CSS规则如下：
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; p { margin:0; border:1px solid red ; }
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; img {  float:left;  margin:4px ; } 
+            <br>以上规则会让图片浮动到左侧，从而让文本绕排到右侧。
+        </p>       
+    </div>
+ </body>
+</html>
