@@ -1,0 +1,86 @@
+/*CSS：★洮羱芝闇★*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #F2F2F2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+.body_main{
+    width: 100%;
+}
+/*登录窗口*/
+.log{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    background: white;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+/*登陆小窗*/
+.window{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.window h1{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.window form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.window form .user_name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 380px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.window form .user_name p{
+    font-size: 20px;
+}
+.window form .user_name input{
+    font-size: 20px;
+}
+.window form .user_pass{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 380px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.window form .user_pass p{
+    font-size: 20px;
+}
+.window form .user_pass input{
+    font-size: 20px;
+}
+.window form button{
+    width: 250px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #ffffff;
+}

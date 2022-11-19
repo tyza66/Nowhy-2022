@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单行文字省略</title>
+    <style>
+        .ellipsis-1 {
+            overflow: hidden ;
+            text-overflow: ellipsis ;
+            white-space: nowrap;           
+        }
+
+        span.test{      
+            display:inline-block;           
+            
+            width:15em;           
+            border:1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <h2>css 文本两行显示，超出省略号表示</h2>
+    <p>
+        重点：text-overflow: ellipsis;只对display：inline；起作用<br>
+        例子：
+        <pre>
+            .ellipsis-1 {
+                overflow: hidden ;
+                text-overflow: ellipsis ;
+                white-space: nowrap;           
+            }
+            span.test{       
+                border:1px solid #000000;
+            }
+        </pre>
+        &lt;span class=&quot;<span style="color:red">test ellipsis-1</span>&quot; &gt;<br>
+        This is some long text that will not fit in the box .This is some long text that will not fit in the box .<br>
+        &lt;/span&gt;
+        <br> 
+    </p>
+    <h4>效果如下:你会发现text-overflow: ellipsis 失效</h4>
+    <span class="test ellipsis-1">
+        This is some long text that will not fit in the box .This is some long text that will not fit in the box .
+    </span>
+ 
+    <h2>常见的问题:text-overflow: ellipsis 失效</h2>
+    <p>
+        text-overflow:ellipsis; <br>
+        only works when the following are true:<br>
+        (1) The element's width must be constrained in px (pixels). Width in % (percentage) won't work.<br>
+        (2) The element must have overflow:hidden and white-space:nowrap set.
+    </p>
+    <pre>
+        样式表修改为:
+        span.test{   
+            display:inline-block;
+            width:15em;         
+            border:1px solid #000000;
+        }
+    </pre>
+    <span class="test ellipsis-1">
+        This is some long text that will not fit in the box .This is some long text that will not fit in the box .
+    </span>
+</body>
+</html>

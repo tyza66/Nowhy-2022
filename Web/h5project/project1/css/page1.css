@@ -1,0 +1,400 @@
+/*CSS：★洮羱芝闇★*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #F2F2F2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+.body_main{
+    width: 100%;
+}
+/*page1的标题栏样式*/
+.top{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow:0 2px 0 0 rgba(0, 0, 0, 0.1); ;
+}
+@media screen and (max-width: 1200px)
+{
+    .top {
+        padding: 5px 70px;
+        margin: 0 auto;
+    }
+}
+.content{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 97%;
+    margin: 0 auto;
+}
+.content_left{
+    float: left;
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    height: 45px;
+    margin-top: 2.5px;
+}
+.logo_top{
+    width: 80px;
+    height: 45px;
+    background: #848484;
+}
+.items_top{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    height: 45px;
+    margin-left: 5px;
+}
+.items_top li{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    width: 55px;
+    height: 45px;
+}
+.items_top li:hover{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    background: #D8D8D8;
+    width: 55px;
+    height: 45px;
+}
+.items_top li a{
+    display: -webkit-flex;display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 32px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.content_right,.content_right_logined{
+    float: right;
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    height: 45px;
+    margin-top: 2.5px;
+}
+.users_top{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    height: 45px;
+    margin-left: 5px;
+}
+.users_top li{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    width: 55px;
+    height: 45px;
+}
+.users_top li:hover{
+    display: -webkit-flex;display: flex;
+    flex-direction: row;
+    background: #D8D8D8;
+    width: 55px;
+    height: 45px;
+}
+.users_top li a{
+    display: -webkit-flex;display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 33px;
+    height: 45px;
+    margin: 0 auto;
+}
+.head_portrait{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 2.5px;
+    border-radius: 20px;
+    background: bisque;
+}
+.upload_u{
+    text-decoration: none;
+}
+.upload{
+    display: -webkit-flex;display: flex;
+    width: 80px;
+    height: 45px;
+    margin-left: 5px;
+    border-radius: 20px;
+    background: #58ACFA;
+}
+.upload p{
+    display: -webkit-flex;display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+/*page1的上方Banner样式*/
+.banner_top{
+    width: 100%;
+    height: 170px;
+    background: #fffff0;
+}
+@media screen and (max-width: 1200px)
+{
+    .banner_top {
+        padding: 5px 70px;
+        margin: 0 auto;
+    }
+}
+.banner_link{
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+}
+/*page1上方的leader导航栏*/
+.leader{
+    position: relative;
+    width: 1200px;
+    height: 210px;
+    margin-top: 25px;
+    margin: 0 auto;
+    background: #F2F2F2;
+}
+.swiper-container {
+    position: absolute;
+    left: 10px;
+    width: 400px;
+    height: 210px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-flex;display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.hot{
+    position: absolute;
+    display: -webkit-flex;display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    left: 416px;
+    width: 780px;
+    height: 100%;
+}
+.hot1{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background: white;
+}
+.hot2{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+    background: white;
+}
+.hot3{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+    background: white;
+}
+/*page1主体部分的样式*/
+    /*第一部分：推广*/
+    .primary_coverage{
+        width: 1200px;
+        margin: 0 auto; 
+        margin-top: 5px;
+        background: #F2F2F2;
+    }
+    .extension{
+        display: -webkit-flex;display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        height: 300px;
+    }
+    .extension_left{
+        width: 870px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-left: 10px;
+    }
+    .extension_right{
+        width: 300px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-right: 10px;
+    }
+    .title01{
+        width: 870px;
+        height: 36px;
+    }
+    .title01 div{
+        display: flex;
+        align-items: center;
+        height: 36px;
+    }
+    .title01 div img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .title01 div p{
+        font-size: 25px;
+        font-weight: 505;
+        margin-left: 10px;
+    }
+    /*第二部分：直播*/
+    .live{
+        display: -webkit-flex;display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        width: 1200px;
+        height: 300px;
+    }
+    .live_left{
+        width: 870px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-left: 10px;
+    }
+    .live_right{
+        width: 300px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-right: 10px;
+    }
+    .title03{
+        width: 870px;
+        height: 36px;
+    }
+    .title03 div{
+        display: flex;
+        align-items: center;
+        height: 36px;
+    }
+    .title03 div img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .title03 div p{
+        font-size: 25px;
+        font-weight: 505;
+        margin-left: 10px;
+    }
+    /*第三部分：视频*/
+    .video{
+        display: -webkit-flex;display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        width: 1200px;
+        height: 700px;
+    }
+    .video_left{
+        width: 870px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-left: 10px;
+    }
+    .video_right{
+        width: 300px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-right: 10px;
+    }
+    .title02{
+        width: 870px;
+        height: 36px;
+    }
+    .title02 div{
+        display: flex;
+        align-items: center;
+        height: 36px;
+    }
+    .title02 div img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .title02 div p{
+        font-size: 25px;
+        font-weight: 505;
+        margin-left: 10px;
+    }
+    /*第四部分：话题*/
+    .topic_of_conversation{
+        display: -webkit-flex;display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        width: 1200px;
+        height: 400px;
+    }
+    .topic_of_conversation_left{
+        width: 870px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-left: 10px;
+    }
+    .topic_of_conversation_right{
+        width: 300px;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+        margin-right: 10px;
+    }
+    .title04{
+        width: 870px;
+        height: 36px;
+    }
+    .title04 div{
+        display: flex;
+        align-items: center;
+        height: 36px;
+    }
+    .title04 div img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .title04 div p{
+        font-size: 25px;
+        font-weight: 505;
+        margin-left: 10px;
+    }
+/*page下方footer*/
+.footer{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto; 
+    margin-top: 5px;
+}

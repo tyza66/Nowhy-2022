@@ -1,0 +1,85 @@
+/*CSS：★洮羱芝闇★*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #F2F2F2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+.body_main{
+    width: 100%;
+}
+/*video左侧悬浮的分类栏*/
+.classification{
+    position: fixed;
+    top: 120px;
+    width: 80px;
+    height: 500px;
+    border-radius: 15px;
+    background: white;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.classification_in{
+    display: -webkit-flex;display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 480px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: white;
+}
+.classification_in div{
+    display: -webkit-flex;display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    font-size: 25px;
+    font-weight: 505;
+}
+.classification_in ul{
+    display: -webkit-flex;display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+.classification_in ul li{
+    display: -webkit-flex;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+}
+.classification_in ul li:hover{
+    display: -webkit-flex;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background: #D8D8D8;
+}
+.classification_in ul li a{
+    text-decoration: none;
+    color: black;
+}
+/*热门推荐部分*/
+.hot{
+    width: 1200px;
+    height: 210px;
+    background: white;
+    margin: 0 auto;
+}
+/*主要部分*/
+.primary_coverage{
+    width: 1200px;
+    height: 800px;
+    background: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+}

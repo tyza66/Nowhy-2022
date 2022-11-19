@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv=“X-UA-Compatible” content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="社区化学习交流平台">
+    <meta name="keywords" content="视频，论坛,交流">
+    <meta name="author" content="★洮羱芝闇★">
+    <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+    <link rel="icon" href="../image/ico/icon.ico" type="image/x-icon"> <!-- 在网页标题左侧显示图标 -->
+    <link rel="shortcut icon" href="../image/ico/icon.ico" type="image/x-icon"> <!-- 在收藏夹显示图标 -->
+    <title>云享星-投稿</title>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/page1.css">
+    <script src="../js/vue.js"></script>
+    <script src="../js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div id="voide">
+        <div class="body_main" id="page1">
+            <div class="top">
+                <div class="content">
+                    <div class="content_left">
+                        <div class="logo_top"></div>
+                        <ul class="items_top">
+                            <li><a href="#">主页</a></li>
+                            <li><a href="../pages/video.html" target="_blank">视频</a></li>
+                            <li><a href="../pages/live.html" target="_blank">直播</a></li>
+                            <li><a href="../pages/shop.html" target="_blank">论坛</a></li>
+                            <li><a href="../pages/navigation.html" target="_blank">导航</a></li>
+                            <li><a href="../pages/app.html" target="_blank">APP</a></li>
+                        </ul>
+                    </div>
+                    <div class="content_right">
+                        <ul class="users_top">
+                            <li v-if="logined">
+                                <div class="head_portrait"></div>
+                            </li>
+                            <li v-if="logined"><a href="../pages/self.html" target="_blank">个人中心</a></li>
+                            <li v-if="!logined"><a href="../pages/loginin.html">登录</a></a></li>
+                            <li><a href="../pages/help.html" target="_blank">帮助中心</a></li>
+                        </ul>
+                        <a class="upload_u" href="../pages/upload.html" target="_blank">
+                            <div class="upload">
+                                <p>投稿</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Vue JS -->
+        <script src="../js/vue_uploed.js"></script>
+</body>
+
+</html>

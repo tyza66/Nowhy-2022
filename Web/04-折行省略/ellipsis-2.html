@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两行文字省略</title>
+    <style>
+        .ellipsis-2{
+            overflow: hidden ;
+            text-overflow: ellipsis ;
+
+            display:-webkit-box;
+            display:-moz-box;
+            display:box;
+   
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;            
+        }
+
+        div.test{
+            width:12em;
+            border:1px solid #000000;
+        }
+        ul,li {  /* css reset */
+             padding:0;
+             margin:0;                   
+        }
+        pre{
+            font-weight: bold ;
+            font-size:20px;
+            font-family:'Courier New', Courier, monospace ;
+        }
+        img{
+            width:300px;
+            height:250px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>两行文字省略... 用到的CSS属性:</h2>
+        <ol>
+            <li>overflow: hidden ;</li>
+            <li>text-overflow: ellipsis ;</li>
+            <li>display: -webkit-box ;</li>
+            <li>-webkit-line-clamp: 2 ;</li>
+            <li>-webkit-box-orient: vertical ;</li>            
+        </ol>
+        <h2>可以使用这几个属性定义一个两行文字省略的CSS类:ellipsis-2</h2>
+        <p>
+            <pre>
+            ellipsis-2 {
+                text-overflow:ellipsis;
+                overflow:hidden;
+                display:-webkit-box;
+                -webkit-line-clamp: 2 ;
+                -webkit-box-orient: vertical ;
+            }
+            </pre>
+        </p>
+        <p> 将这个类用到 div元素上: </p>
+        <pre>
+            &lt;div class=&quot;test <span style="color:red">ellipsis-2</span> &quot; &gt;
+                This is some long text that will not fit in the box .This is some long text that will not fit in the box .
+            &lt;/div&gt;
+        </pre>   
+        <p> 效果如下: </p>     
+            <div class="test ellipsis-2">
+                This is some long text that will not fit in the box .This is some long text that will not fit in the box .
+            </div>
+            <pre>
+                https://c.runoob.com/codedemo/2809/
+                div {
+                    display:-webkit-box;
+                    text-overflow:ellipsis;
+                    overflow:hidden;
+                    width:100px;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient:vertical;
+                  }
+            </pre>
+            <p><img src="images/-webkit-box.png" /></p>
+            <p><img src="images/line-clamp.png" /></p>
+        </div>
+
+</body>
+</html>

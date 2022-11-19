@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .rongqi{
+            width: 1200px;
+            margin: 0 auto;
+            
+        }
+        .b1{
+            width: 90%;
+            height: 80px;
+            background:#ddd;padding:20px;;
+            margin: 0 auto;
+        }
+        .a1{
+            float: left;
+            width: 40%;
+            background: #bbb;
+        }
+        .a3{
+            float: right;
+            width: 40%;
+            background: #bbb;
+        }
+        .a1 h3,.a1 p,.a3 h3,.a3 p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="rongqi">
+        <h1>浮动溢出</h1>
+        <div class="b1">
+            <h3>Parent Division</h3>
+            <p>background:#ddd;padding:20px;</p>
+            <div class="a1">
+                <h3>Left-floated Division</h3>
+                <p>float:left;width:40%</p><br>
+                <p>background:#ccc;text-</p><br>
+                <p>align:center;</p><br>
+                <p>padding:20px;</p>
+            </div>
+            
+            <div class="a3">
+                <h3>Right-floated Division</h3>
+                <p>float:right;width:40%</p><br>
+                <p>background:#bbb;text-</p><br>
+                <p>align:center;</p><br>
+                <p>padding:20px;</p>
+            </div><p>Such breaking of flow and alignment in the markup can be fixed by making use of some handy CSS techniques which we' ll be discussing in the rest of the article.</p>
+
+        </div>
+    </div>
+</body>
+</html>

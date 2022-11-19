@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Document</title>
+
+<head>
+    <link rel="stylesheet" type="03/css" href="03.css">
+    <script src="01.js"></script>
+</head>
+
+<body onload="greet()">
+    <div>
+        <h3>中文诗歌测试</h3>
+    </div>
+    <script>
+        function saveCookie() {
+            var userName = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            console.log(userName + password);
+            var date = new Date();
+            //  date.setDate(date.getDate()+1);
+            date.setTime(date.getTime() + 5000);
+            //将cookie保存5秒钟
+            setCookie("userName", userName, date.toGMTString(), "", "", "");
+            setCookie("password", password, date.toGMTString(), "", "", "");
+            showCookie();
+        }
+
+        function setCookie(name, value, expires, path, domain, secure) {
+            document.cookie = name + "=" + encodeURI(value) +
+                ((expires) ? "; expires=" + expires : "") +
+                ((path) ? "; path=" + path : "") +
+                ((domain) ? "; domain=" + domain : "") +
+                ((secure) ? "; secure=" + secure : "");
+        }
+
+        function getCookie(cName) {
+            var cookieString = decodeURI(document.cookie);
+            var cookieArray = cookieString.split("; ");
+            console.log(cookieArray.length);
+            for (var i = 0; i < cookieArray.length; i++) {
+                var cookieNum = cookieArray[i].split("=");
+                console.log(cookieNum.toString());
+                var cookieName = cookieNum[0];
+                var cookieValue = cookieNum[1];
+
+                if (cookieName == cName) {
+                    return cookieValue;
+                }
+            }
+            return false;
+        }
+
+        function showCookie() {
+            var txt = document.getElementById("txt_showCookie");
+            txt.value = "用户名：" + getCookie("userName") + "\n密码：" + getCookie("password");
+        }
+
+        //删除Cookie就是简单的将cookie的expires属性设置为一个过去的时间即可。
+        function deleteCookie() {
+            var date = new Date();
+            date.setTime(date.getTime() - 1000);
+            setCookie("userName", password, date.toGMTString(), "", "", "");
+            setCookie("password", password, date.toGMTString(), "", "", "");
+            showCookie();
+        }
+    </script>
+
+    </script>
+
+    <body onLoad="showCookie()">
+        <from>
+            <input type="text" id="username" name="username" placeholder="用回名" /><br/>
+            <input type="password" id="password" name="password" placeholder="密码"><br/>
+            <input type="button" onClick="saveCookie()" value="保存cookie" />
+            <input type="button" onClick="deleteCookie()" value="删除cookie" />
+            <br/>
+            <label>cookie显示区域</label><br/>
+            <textarea id="txt_showCookie" placeholder="cookie显示区域" rows="6" cols="30">
+    
+    </textarea>
+        </from>
+        <!-- the quiz.-->
+        <form action="" ,method="post">
+            <fieldset>
+                <legend>Chinese ancient poetry quiz</legend>
+
+                <!--part1-->
+                <fieldset>
+                    <h3>Single choice（6分/题）</h3>
+                    <div id="grey">
+                        <fieldset class="question">
+                            <p id="1">Qeustion 1: “长风破浪会有时, 直挂云帆济沧海。” 出自下列哪一首诗？</p>
+                            <label><input type="radio" name="answer1" value="6"/>《行路难》</label>
+                            <br />
+                            <label><input type="radio" name="answer1"  value="0"/>《蜀道难》</label>
+                            <br/>
+                            <label><input type="radio" name="answer1" value="0"/>《长恨歌》</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="2">Qeustion 2: “蓦然回首，那人却在，灯火阑珊处。”出自哪一位诗人？</p>
+                            <label><input type="radio" name="answer2" value="0" />北宋 辛弃疾</label>
+                            <br />
+                            <label id="2"><input type="radio" name="answer2" value="6" />南宋 辛弃疾<label>
+<br/>
+<label><input type="radio" name="answer2" value="0"/>南宋 李清照</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="3">Qeustion 3:《蜀道难》中“一夫当关,万夫莫开”的关指什么关？ </p>
+                            <label id="3"><input type="radio" name="answer3" value="6" />剑门关</label>
+                            <br />
+                            <label><input type="radio" name="answer3" value="0"/>山海关</label>
+                            <br/>
+                            <label><input type="radio" name="answer3" value="0"/>嘉峪关</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="4">Qeustion 4:“东风不与周郎便，铜雀春深锁二乔”的诗人是谁？是谁要锁二乔 </p>
+                            <label id="4"><input type="radio" name="answer4" value="6"/>杜牧 曹操</label>
+                            <br />
+                            <label><input type="radio" name="answer4" value="0"/>杜甫 曹丕</label>
+                            <br/>
+                            <label><input type="radio" name="answer4" value="0"/>王维 曹操</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="5">Qeustion 5: “诗中有画，画中有诗”是谁赞扬谁的？</p>
+                            <label><input type="radio" name="answer5" value="0"/>范仲淹 王维</label>
+                            <br />
+                            <label><input type="radio" name="answer5" value="0"/>王维 苏轼</label>
+                            <br/>
+                            <label id="5"><input type="radio" name="answer5" value="6"/>苏轼 王维</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="6">Qeustion 6: 《岳阳楼记》中岳阳楼在什么湖附近？</p>
+                            <label><input type="radio" name="answer6" value="0"/>鄱阳湖</label>
+                            <br />
+                            <label id="6"><input type="radio" name="answer6" value="6"/>洞庭湖</label>
+                            <br/>
+                            <label><input type="radio" name="answer6" value="0"/>太湖</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="7">Qeustion 7: 李清照号什么？</p>
+                            <label><input type="radio" name="answer7" value="0" />青莲居士</label>
+                            <br />
+                            <label id="7"><input type="radio" name="answer7"  value="6"/>易安居士</label>
+                            <br/>
+                            <label><input type="radio" name="answer7"  value="0"/>香山居士</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="8">Qeustion 8:《世说新语》中谢太傅的侄女，侄子分别是怎么咏雪的？他们属于哪一个朝代？ </p>
+                            <label><input type="radio" name="answer8" value="0"/>撒盐空中差可拟 未若柳絮因风起 西晋</label>
+                            <br />
+                            <label id="8"><input type="radio" name="answer8" value="6"/>未若柳絮因风起 撒盐空中差可拟 东晋</label>
+                            <br/>
+                            <label><input type="radio" name="answer8"  value="0"/>未若柳絮因风起 撒盐空中差可拟  宋</label>
+                        </fieldset>
+
+                        <fieldset class="question">
+                            <p id="9">Qeustion 9:夸父出自 </p>
+                            <label id="9"><input type="radio" name="answer9"  value="6"/>《山海经》</label>
+                            <br />
+                            <label><input type="radio" name="answer9"  value="0"/>《搜神记》</label>
+                            <br/>
+                            <label><input type="radio" name="answer9"  value="0"/>《封神演义》</label>
+                        </fieldset>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h3>Multipe choice（10，11题每题15分，12题16分。 错选不得分）</h3>
+                    <div id="grey">
+                        <fieldset class="question">
+                            <p id="10">Qeustion 10: 关于《琵琶行》描述正确的有</p>
+                            <input type="checkbox" name="answer10" value="5" /><span id="10">作者杜甫</span>
+                            <br />
+                            <input type="checkbox" name="answer10" value="5" /><span id="10">有名句千呼万唤始出来，犹抱琵琶半遮面”</span>
+                            <br/>
+                            <input type="checkbox" name="answer10" value="5" /><span id="10">作者左迁</span>
+                            <br/>
+                            <input type="checkbox" name="answer10" value="-1" /><span>作者杜牧</span>
+                        </fieldset>
+                        <fieldset class="question">
+                            <p id="11">Qeustion 11: 关于李白正确的描述</p>
+                            <input type="checkbox" name="answer11" value="7" /><span id="11">被誉为“诗仙”</span>
+                            <br />
+                            <input type="checkbox" name="answer11" value="8" /><span id="11">著有《蜀道难》</span>
+                            <br/>
+                            <input type="checkbox" name="answer11" value="-1" /><span>号易安居士”</span>
+                        </fieldset>
+                        <fieldset>
+                            <button type="button" onclick="coreCount()">Cores</button>
+                            <button type="button" onclick="coreCount()">Cores Work</button>
+                            <button type="button" onclick="coreCount()">correction</button>
+                            <button type="button" onclick="coreCount()">correction Work</button>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>
+
+</html>
