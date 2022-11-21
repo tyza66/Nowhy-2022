@@ -1,0 +1,31 @@
+@charset 'utf-8';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.tech{
+    width: 100%;
+
+}
+.toolbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+.toolbar ul{
+    border: 1px solid blue;
+    background-color: pink;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar ul img{
+    height: 100%;
+}
